@@ -1,0 +1,60 @@
+/* 
+
+Ficheiro -mvn, ficheiro de configuração do maven, para o maven 
+conseguir gerir o projeto
+
+Ficheiro .settings sao configuraçoes para o  eclipse
+
+Ficheiro source é onde esta o codigo, 
+
+Ficheiro target tem binarios, o java tem binarios, compilamos
+e ele cria por classes, ou seja binarios e depois corre sobre a 
+maquina virtual, este ficheiro so aparece quando compilamos a primeira vez!!! apos
+isso irao aparecer os ficheiros  
+
+Classpath ficheiro de configuraçoes do proprio maven, cria automaticamente
+
+Gitignore, ficheiro pre configurado para o git, ficheiros temporarios, pre configuraçoes que 
+nao queremos que va para o git, como ficheiros de Logos, target (binarios), so queremos no git codigo, 
+o heroku vai buscar codigo e ele proprio compila, portanto nao ha problema, nunca vai buscar codigo compilado
+
+.project tem configuracoes do projeto, do java e do maven
+
+pom.xml tem as configuraçoes de todas as dependencies que nos fazemos, dependecies base do azur, jpa, mysql,
+
+HELP.md tem links 
+
+mvnw e mvnw.cmd tem scripts que vamos usar para compilar e correr o 
+programa, vai buscar dependencias se for preciso ir buscar, consegue correr as coisas
+mais lento que node.js
+
+pasta do source, tem 2 ficheiros, 
+o main e a pasta das aplicaçoes
+- pasta de aplicaçoes é basicamente pasta do teste
+- o main tem 2 pastas, a pasta do projeto onde basicamente tem o caminho todo, o package que utilizamos para o projeto, 
+faz o run da aplicação, automaticamente vai olhar para tudo o que tiver na pasta e automaticamente
+vai detectar onde estao certos codigos, vai ver onde vai ter de montar o servidior, 
+torna mais simples do que o noje.js, ora esta é a pasta onde contem o servidor, rest api, fornece dados, 
+
+e a outra pasta é a pasta de recursos, é a pasta estatica, pasta de html, tudo o que é html, css, java script  vai
+ser colocado no ficheiro static
+
+so precisamos de html e javascript para mostrar que a pasta java EI POO1 (servidor rest api) esta a funcionar
+
+Estudar html e javascript para conseguir fazer a ligaçao do lado do servidor,
+
+Portanto, o lado do servidor vai ser o importante, a pasta vai ser o importante JAVA EI POO1, a pasta resources nao é 
+importante para passar  
+
+Importante: 
+controladores gerem os dados do models view, ligaçao entre os dados, e enviar os dados para as paginas, controlas as 2 coisas, models e views
+views sao os htmls 
+models estao relacionados com os dados, sao as classes que vamos criar
+e ser usadas para aceder a base de dados
+
+Para correr: colocar a pass no terminal ./mvnw spring-boot:run
+
+no browser colocar: localhost:8080/api/greeter
+ */
+
+
